@@ -7,7 +7,7 @@ permalink: /firerisk_notion_embed
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomorrow.io Weather Widget</title>
+    <title>Tomorrow.io Fire Risk Widget</title>
     <style>
         .tomorrow {
             position: relative;
