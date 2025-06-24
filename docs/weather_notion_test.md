@@ -2,6 +2,7 @@ layout: page
 title: "Weather Widget for Notion"
 permalink: /docs/weather_notion_embed
 
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,7 @@ permalink: /docs/weather_notion_embed
     <style>
         .tomorrow {
             position: relative;
-            min-height: 175px; /* Ensure widget has space to render */
+            min-height: 300px; /* Ensure widget has space to render */
             width: 100%;
         }
         
@@ -58,9 +59,6 @@ permalink: /docs/weather_notion_embed
          data-unit-system="IMPERIAL"
          data-skin="light"
          data-widget-type="upcoming">
-        <a href="https://weather.tomorrow.io/" rel="nofollow noopener noreferrer">
-            Powered by Tomorrow.io
-        </a>
     </div>
 
     <!-- Widget SDK Loader Script -->
@@ -80,23 +78,7 @@ permalink: /docs/weather_notion_embed
             fjs.parentNode.insertBefore(js, fjs);
         })(document, 'script', 'tomorrow-sdk');
         
-        // Create the powered by link
-        const widgetContainer = document.querySelector('.tomorrow');
-        const poweredByLink = document.createElement('a');
-        poweredByLink.href = "https://weather.tomorrow.io/";
-        poweredByLink.rel = "nofollow noopener noreferrer";
-        poweredByLink.target = "_blank";
-        poweredByLink.className = "powered-by";
-        
-        const poweredByImg = document.createElement('img');
-        poweredByImg.alt = "Powered by Tomorrow.io";
-        poweredByImg.src = "https://weather-website-client.tomorrow.io/img/powered-by.svg";
-        poweredByImg.width = "250";
-        poweredByImg.height = "18";
-        
-        poweredByLink.appendChild(poweredByImg);
-        widgetContainer.appendChild(poweredByLink);
     </script>
 
 </body>
-
+</html>
