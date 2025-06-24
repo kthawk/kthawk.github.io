@@ -50,7 +50,7 @@ permalink: /airquality_notion_embed
         
         .powered-by img {
             width: 250px;
-            height: 22px;
+            height: 10px;
         }
   </style>
     <!-- Widget Container -->
