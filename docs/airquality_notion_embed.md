@@ -2,6 +2,7 @@ layout: page
 title: "Air Quality Widget for Notion" 
 permalink: /airquality_notion_embed
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
