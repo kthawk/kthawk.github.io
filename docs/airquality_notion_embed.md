@@ -11,7 +11,7 @@ permalink: /airquality_notion_embed
     <style>
         .tomorrow {
             position: relative;
-            min-height: 300px; /* Ensure widget has space to render */
+            min-height: 220px; /* Ensure widget has space to render */
             width: 100%;
         }
         
@@ -37,7 +37,7 @@ permalink: /airquality_notion_embed
             position: relative;
             padding-bottom: 10px;
             width: 100%;
-            max-width: 2000px;
+            max-width: 4000px;
             margin: 0 auto;
         }
         
