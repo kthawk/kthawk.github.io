@@ -9,7 +9,7 @@ permalink: /docs/weather_notion_embed
     <style>
         .tomorrow {
             position: relative;
-            min-height: 175175px; /* Ensure widget has space to render */
+            min-height: 175px; /* Ensure widget has space to render */
             width: 100%;
         }
         
@@ -33,9 +33,9 @@ permalink: /docs/weather_notion_embed
         
         .tomorrow {
             position: relative;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             width: 100%;
-            max-width: 1200px;
+            max-width: 2500px;
             margin: 0 auto;
         }
         
