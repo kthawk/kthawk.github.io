@@ -50,7 +50,7 @@ permalink: /firerisk_notion_embed
         
         .powered-by img {
             width: 250px;
-            height: 22px;
+            height: 18px;
         }
   </style>
     <!-- Widget Container -->
