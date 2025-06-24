@@ -37,7 +37,7 @@ permalink: /firerisk_notion_embed
             position: relative;
             padding-bottom: 10px;
             width: 100%;
-            max-width: 800px;
+            max-width: 2000px;
             margin: 0 auto;
         }
         
