@@ -35,7 +35,7 @@ permalink: /docs/weather_notion_embed
             position: relative;
             padding-bottom: 20px;
             width: 100%;
-            max-width: 2500px;
+            max-width: 2000px;
             margin: 0 auto;
         }
         
